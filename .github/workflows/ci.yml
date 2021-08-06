@@ -23,4 +23,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.TEST_CUTOUTPAGE }} # VUE_ADMIN_TEMPLATE 是我的 secret 名称，需要替换成你的
           BRANCH: master
           FOLDER: dist
-          REPOSITORY_NAME: git@github.com:chengzhixuan/cutoutPage.git
+          repository-name: git@github.com:chengzhixuan/cutoutPage.git
