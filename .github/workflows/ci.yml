@@ -20,7 +20,6 @@ jobs:
       - name: Deploy # 将打包内容发布到 github page
         uses: JamesIves/github-pages-deploy-action@4.1.4 # 使用别人写好的 actions
         with:  # 自定义环境变量
-          ACCESS_TOKEN: ${{ secrets.TEST_CUTOUTTEST }} # VUE_ADMIN_TEMPLATE 是我的 secret 名称，需要替换成你的
-          BRANCH: master
+          ACCESS_TOKEN: ${{ secrets.TEST_CUTOUT }} # VUE_ADMIN_TEMPLATE 是我的 secret 名称，需要替换成你的 TEST_CUTOUT TEST_CUTOUTTEST
+          BRANCH: page
           FOLDER: dist
-          repository-name: chengzhixuan/cutoutPage
