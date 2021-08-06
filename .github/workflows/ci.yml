@@ -23,5 +23,5 @@ jobs:
           token: ${{ secrets.TEST_CUTOUTPAGE }} # VUE_ADMIN_TEMPLATE 是我的 secret 名称，需要替换成你的
           branch: master
           folder: dist
-          REPOSITORY_NAME: chengzhixuan.github.io # 这是我的 github page 仓库
-          TARGET_FOLDER: cutoutPage
+          repository-name: chengzhixuan.github.io # 这是我的 github page 仓库
+          target-folder: cutoutPage
