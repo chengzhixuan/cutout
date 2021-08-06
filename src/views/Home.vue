@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <div>哈哈哈<input type="file" @change="fileChange" accept="image/*"><span @click="downLoad()">下载</span></div>
+        <div>哈哈哈打<input type="file" @change="fileChange" accept="image/*"><span @click="downLoad()">下载</span></div>
         <div id='initialImg'>
 
         </div>
