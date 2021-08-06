@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <div><input type="file" @change="fileChange" accept="image/*"><span @click="downLoad()">下载滚滚滚</span></div>
+        <div><input type="file" @change="fileChange" accept="image/*"><span @click="downLoad()">下载</span></div>
         <div id='initialImg'>
             
         </div>
